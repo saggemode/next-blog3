@@ -1,19 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-//import { useContext } from "react";
+import React from "react";
 import Layout from "../components/Layout";
-import BlogCard from "../components/BlogCard";
 
-
-
-export default function Home() {
-  
+const NftList = () => {
   return (
     <Layout>
       <div className="pt-20">
-        <BlogCard />
+      <h1>hello</h1>
       </div>
     </Layout>
   );
-}
+};
 
-
+export default NftList;
